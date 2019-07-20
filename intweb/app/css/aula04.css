@@ -1,0 +1,15 @@
+.info {
+  color: red;
+}
+
+.pull-left {
+  text-align: left;
+}
+
+.pull-right {
+  text-align: right;
+}
+
+span {
+  width: 100%;
+}

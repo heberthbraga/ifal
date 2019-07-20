@@ -1,0 +1,36 @@
+header {
+  top: 0;
+  width: 100%;
+}
+
+header h1 {
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}
+
+.header {
+  background-image: url('/img/TEC_WEB_TANSPARENTE.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+  background-position: center center;
+  border-bottom: 2px solid #000;
+}
+
+/* .menu-opcoes {
+  position: absolute;
+  font-size: 20px;
+  float: right;
+}
+
+.menu-opcoes ul li {
+  display: inline;
+  margin-left: 10px;
+}
+.menu-opcoes a {
+  color: #000;
+  font-weight: bolder;
+  text-decoration: none;
+} */
