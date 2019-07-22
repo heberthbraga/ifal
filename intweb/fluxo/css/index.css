@@ -1,0 +1,18 @@
+body {
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 20px 200px 20px 200px;
+}
+
+p {
+  padding: 10px 200px 20px 200px;
+}
+
+#pink-floyd {
+  float: right;
+  margin: 0 0 10px 10px;
+  width: 300px;
+  height: 200px;
+}

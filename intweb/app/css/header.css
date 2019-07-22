@@ -1,36 +1,33 @@
-header {
-  top: 0;
-  width: 100%;
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+  background-image: url('/img/TEC_WEB_TANSPARENTE.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-header h1 {
-  padding: 20px;
+.header h1 {
   font-size: 40px;
   font-weight: bold;
   color: #000;
+  float: left;
 }
 
-.header {
-  background-image: url('/img/TEC_WEB_TANSPARENTE.png');
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-size: cover;
-  background-position: center center;
-  border-bottom: 2px solid #000;
-}
-
-/* .menu-opcoes {
-  position: absolute;
-  font-size: 20px;
+.menu {
   float: right;
+  margin: 20px 20px 0px 0px;
 }
 
-.menu-opcoes ul li {
+.menu ul li {
   display: inline;
-  margin-left: 10px;
+  padding-right: 10px;
 }
-.menu-opcoes a {
+
+.menu a {
   color: #000;
   font-weight: bolder;
+  font-size: 20px;
   text-decoration: none;
-} */
+}
