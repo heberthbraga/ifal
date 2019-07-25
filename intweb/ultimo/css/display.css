@@ -1,0 +1,23 @@
+body {
+  font-size: 20px;
+}
+
+.block {
+  display: block;
+  border: 1px solid #000;
+  margin-bottom: 50px;
+}
+
+.texto {
+  font-weight: bold;
+}
+
+.opcoes li {
+  display: block;
+}
+
+.tamanho {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #445f;
+}

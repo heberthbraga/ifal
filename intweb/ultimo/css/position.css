@@ -1,0 +1,51 @@
+body {
+  font-size: 20px;
+}
+
+.static {
+  position: static;
+  border: 2px solid #6AC5AC;
+}
+
+.relative1 {
+  position: relative;
+  border: 2px solid #6AC5AC;
+}
+
+.relative2 {
+  position: relative;
+  border: solid #D64078 3px;
+  top: -20px;
+  left: 20px;
+  background-color: #fff; 
+  width: 500px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  background-color: #fff;
+  z-index: 9999;
+  border: solid #FDC72F 3px;
+}
+
+.absolute-intro {
+  margin-bottom: 20px;
+}
+
+.relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  border: 2px solid #6AC5AC;
+}
+
+.absolute {
+  position: absolute;
+  width: 300px;
+  border: solid #D64078 3px;
+  top: 120px;
+  right: 0;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Última Aula</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/position.css" />
+  </head>
+  <body>
+    <main>
+      <article>
+        <header><h1>Static</h1></header>
+        <section>
+          <div class="static">
+              o valor static é o valor padrão de todos os elementos HTML. 
+              Um elemento com position: static; não se posiciona de maneira especial, seria o mesmo que dizer que o elemento não tem posição 
+              definida ou então que um elemento com o atributo position definido seria posicionado.
+          </div>
+        </section>
+      </article>
+      <article>
+        <header><h1>Relative</h1></header>
+        <section>
+            <div class="relative1">
+                relative se comporta igualmente ao static, a menos que se adicione propriedades extras no estilo do elemento.
+            </div>
+            <div class="relative2">
+                Definindo as propriedades top, right, bottom, e left em um elemento position:relative o ajustamos em relação à posição atual dele. 
+                Outros conteúdos não vão se ajustar para se encaixarem em qualquer espaço deixado por esse elemento
+            </div>
+        </section>
+      </article>
+      <article>
+        <header><h1>Fixed</h1></header>
+        <section>
+          <div class="fixed">
+              Um elemento fixo - fixed - é posicionado relativamente ao "viewport", 
+              isso significa que ele sempre ficará no mesmo lugar mesmo que haja rolagem na página. Assim como o relative, as propriedades top, right, bottom e left também são utilizadas.
+          </div>
+        </section>
+      </article>
+      <article>
+        <header><h1>Absolute</h1></header>
+        <section>
+          <div class="absolute-intro">
+              O valor absolute é o mais complicado. Este valor se comporta como o fixed, porém tendo como referência a posição do elemento relativo mais próximo de onde está contido, ao invés do viewport. 
+              Se um elemento position:absolute não possuir elementos ancestrais posicionados relativamente, ele utilizará o body como referência.
+          </div>
+          <div class="relative">
+              Este elemento está com position:relative. Se este elemento tivesse com position: static;, seu elemento filho escaparia e se posicionaria em relação ao elemento body do documento.
+
+              <div class="absolute">
+                  Este elemento é position:absolute. E é posicionado em relação ao seu elemento pai.
+              </div>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+  font-size: 20px;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.section {
+  border: 3px solid #FDC72F;
+}
+
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  border: 2px solid #6AC5AC;
+}
+
+.clear {
+  clear: left;
+}
