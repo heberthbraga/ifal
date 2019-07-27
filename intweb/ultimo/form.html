@@ -6,9 +6,40 @@
   </head>
   <body>
     <main>
-      <form>
-        <input type="search" />
-        <button>Buscar</button>
+      <form method="POST" action="/some_action" >
+        <fieldset>
+          <legend>Personalia:</legend>
+          Name: <input name="nome_obrigatorio" type="text"><br>
+          Email: <input type="text"><br>
+          Date of birth: <input type="text">
+        </fieldset>
+        <!-- multiple -->
+        <select name="cars" size="1">
+          <option value="volvo">Volvo</option>
+          <option value="saab" selected>Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+        <textarea name="message" rows="10" cols="30">
+          Hello There
+        </textarea>
+        <input list="browsers" />
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+        <oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range"  id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <button>Enviar</button>
       </form>
     </main>
   </body>
